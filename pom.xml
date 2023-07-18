@@ -6,7 +6,12 @@
 
     <groupId>de.fhws</groupId>
     <artifactId>NetworkTrainer</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <!--<version>1.0-SNAPSHOT</version>-->
+    <parent>
+		<artifactId>JavaBot</artifactId>
+		<groupId>za.co.oevents.cify.starter</groupId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
 
     <repositories>
         <repository>
